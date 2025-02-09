@@ -4,34 +4,16 @@ namespace GraphQL.API.HotChocolate.Models
 {
     public class Command
     {
-        /// <summary>
-        /// Represents the unique ID for the command.
-        /// </summary>
         [Key]
-        public int Id { get; set; }
-
-        /// <summary>
-        /// Represents the how-to for the command.
-        /// </summary>
+        public int Id { get; set; } = 0;
         [Required]
-        [GraphQLDescription("Test 123")]
-        public string HowTo { get; set; }
 
-        /// <summary>
-        /// Represents the command line.
-        /// </summary>
+        public string HowTo { get; set; } = string.Empty;
         [Required]
-        public string CommandLine { get; set; }
+        public string CommandLine { get; set; } = string.Empty;
 
-        /// <summary>
-        /// Represents the unique ID of the platform which the command belongs.
-        /// </summary>
         [Required]
         public int PlatformId { get; set; }
-
-        /// <summary>
-        /// This is the platform to which the command belongs.
-        /// </summary>
         public Platform Platform { get; set; }
     }
 }

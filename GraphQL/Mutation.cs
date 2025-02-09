@@ -10,14 +10,7 @@ namespace GraphQL.API.HotChocolate.GraphQL
     [GraphQLDescription("Represents the mutations available.")]
     public class Mutation
     {
-        /// <summary>
-        /// Adds a <see cref="Platform"/> based on <paramref name="input"/>.
-        /// </summary>
-        /// <param name="input">The <see cref="AddPlatformInput"/>.</param>
-        /// <param name="context">The <see cref="AppDbContext"/>.</param>
-        /// <param name="eventSender">The <see cref="ITopicEventSender"/>.</param>
-        /// <param name="cancellationToken">The <see cref="CancellationToken"/>.</param>
-        /// <returns>The added <see cref="Platform"/>.</returns>
+
         [GraphQLDescription("Adds a platform.")]
         public async Task<AddPlatformPayload> AddPlatformAsync(
             AddPlatformInput input,
@@ -39,13 +32,40 @@ namespace GraphQL.API.HotChocolate.GraphQL
 
             return new AddPlatformPayload(platform);
         }
+        [GraphQLDescription("Edits a platform.")]
+        public async Task<EditPlatformPayload> EditPlatformAsync(EditPlatformInput input, AppDbContext context)
+        {
+            var platform = await context.Platforms.FindAsync(input.Id);
+            if (platform == null)
+            {
+                return new EditPlatformPayload(new Platform());
+            }
 
-        /// <summary>
-        /// Adds a <see cref="Command"/> based on <paramref name="input"/>.
-        /// </summary>
-        /// <param name="input">The <see cref="AddCommandInput"/>.</param>
-        /// <param name="context">The <see cref="AppDbContext"/>.</param>
-        /// <returns>The added <see cref="Command"/>.</returns>
+            platform.Name = input.Name;
+            platform.LicenseKey = input.LicenseKey;
+
+
+            context.Platforms.Update(platform);
+            await context.SaveChangesAsync();
+
+            return new EditPlatformPayload(platform);
+        }
+
+        [GraphQLDescription("Deletes a platform.")]
+        public async Task<DeletePlatformPayload> DeletePlatformAsync(DeletePlatformInput input, AppDbContext context)
+        {
+            var entity = context.Platforms.FirstOrDefault(q=>q.Id == input.Id);
+            if (entity == null) { 
+                return new DeletePlatformPayload(new Platform(), false);
+            }
+
+            context.Platforms.Remove(entity);
+            await context.SaveChangesAsync();
+
+            return new DeletePlatformPayload(entity, true);
+        }
+
+
         [GraphQLDescription("Adds a command.")]
         public async Task<AddCommandPayload> AddCommandAsync(AddCommandInput input, AppDbContext context)
         {
@@ -69,7 +89,7 @@ namespace GraphQL.API.HotChocolate.GraphQL
             var command = await context.Commands.FindAsync(input.Id);
             if (command == null)
             {
-                return new EditCommandPayload(command);
+                return new EditCommandPayload(new Command());
             }
 
             command.HowTo = input.HowTo;
@@ -81,6 +101,21 @@ namespace GraphQL.API.HotChocolate.GraphQL
             await context.SaveChangesAsync();
 
             return new EditCommandPayload(command);
+        }
+
+        [GraphQLDescription("Deletes a command.")]
+        public async Task<DeleteCommandPayload> DeleteCommandAsync(DeleteCommandInput input, AppDbContext context)
+        {
+            var entity = context.Commands.FirstOrDefault(q => q.Id == input.Id);
+            if (entity == null)
+            {
+                return new DeleteCommandPayload(new Command(), false);
+            }
+
+            context.Commands.Remove(entity);
+            await context.SaveChangesAsync();
+
+            return new DeleteCommandPayload(entity, true);
         }
     }
 

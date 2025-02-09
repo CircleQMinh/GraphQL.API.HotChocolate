@@ -1,0 +1,375 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\mutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\mutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\commands\\commandpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\commands\\commandpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\commands\\commandinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\commands\\commandinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\models\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:models\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\commands\\commandtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\commands\\commandtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\platforms\\deleteplatformpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\platforms\\deleteplatformpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\platforms\\editplatformpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\platforms\\editplatformpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\platforms\\deleteplatforminput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\platforms\\deleteplatforminput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\platforms\\addplatformpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\platforms\\addplatformpayload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\platforms\\editplatforminput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\platforms\\editplatforminput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\platforms\\platformtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\platforms\\platformtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\platforms\\addplatforminput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\platforms\\addplatforminput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\migrations\\20230730104524_myfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:migrations\\20230730104524_myfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:docker-compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|c:\\users\\admin\\desktop\\projects\\graphql\\graphql\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EA19D9B-AA3C-40F2-82DF-76E2DCF6E596}|GraphQL.API.HotChocolate.csproj|solutionrelative:graphql\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeletePlatformPayload.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\DeletePlatformPayload.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Platforms\\DeletePlatformPayload.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\DeletePlatformPayload.cs",
+              "RelativeToolTip": "GraphQL\\Platforms\\DeletePlatformPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T00:46:52.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeletePlatformInput.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\DeletePlatformInput.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Platforms\\DeletePlatformInput.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\DeletePlatformInput.cs",
+              "RelativeToolTip": "GraphQL\\Platforms\\DeletePlatformInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T00:46:36.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditPlatformPayload.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\EditPlatformPayload.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Platforms\\EditPlatformPayload.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\EditPlatformPayload.cs",
+              "RelativeToolTip": "GraphQL\\Platforms\\EditPlatformPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:39:30.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditPlatformInput.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\EditPlatformInput.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Platforms\\EditPlatformInput.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\EditPlatformInput.cs",
+              "RelativeToolTip": "GraphQL\\Platforms\\EditPlatformInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:38:09.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20230730104524_MyFirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Migrations\\20230730104524_MyFirstMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20230730104524_MyFirstMigration.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Migrations\\20230730104524_MyFirstMigration.cs",
+              "RelativeToolTip": "Migrations\\20230730104524_MyFirstMigration.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:00:46.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "docker-compose.yaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\docker-compose.yaml",
+              "RelativeDocumentMoniker": "docker-compose.yaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\docker-compose.yaml",
+              "RelativeToolTip": "docker-compose.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-02-08T22:42:49.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:40:28.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mutation.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Mutation.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Mutation.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Mutation.cs*",
+              "RelativeToolTip": "GraphQL\\Mutation.cs*",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAqwGoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommandPayload.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Commands\\CommandPayload.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Commands\\CommandPayload.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Commands\\CommandPayload.cs",
+              "RelativeToolTip": "GraphQL\\Commands\\CommandPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommandInput.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Commands\\CommandInput.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Commands\\CommandInput.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Commands\\CommandInput.cs",
+              "RelativeToolTip": "GraphQL\\Commands\\CommandInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommandType.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Commands\\CommandType.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Commands\\CommandType.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Commands\\CommandType.cs",
+              "RelativeToolTip": "GraphQL\\Commands\\CommandType.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlatformType.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\PlatformType.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Platforms\\PlatformType.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\PlatformType.cs",
+              "RelativeToolTip": "GraphQL\\Platforms\\PlatformType.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Query.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Query.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Query.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Query.cs",
+              "RelativeToolTip": "GraphQL\\Query.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddPlatformInput.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\AddPlatformInput.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Platforms\\AddPlatformInput.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\AddPlatformInput.cs",
+              "RelativeToolTip": "GraphQL\\Platforms\\AddPlatformInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddPlatformPayload.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\AddPlatformPayload.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Platforms\\AddPlatformPayload.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Platforms\\AddPlatformPayload.cs",
+              "RelativeToolTip": "GraphQL\\Platforms\\AddPlatformPayload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Models\\Command.cs",
+              "RelativeDocumentMoniker": "Models\\Command.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Models\\Command.cs",
+              "RelativeToolTip": "Models\\Command.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T22:34:00.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Subscription.cs",
+              "RelativeDocumentMoniker": "GraphQL\\Subscription.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\GraphQL\\Subscription.cs",
+              "RelativeToolTip": "GraphQL\\Subscription.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADgvxIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Models\\Platform.cs",
+              "RelativeDocumentMoniker": "Models\\Platform.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Projects\\GraphQL\\Models\\Platform.cs",
+              "RelativeToolTip": "Models\\Platform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T22:34:00.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

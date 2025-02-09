@@ -1,0 +1,12 @@
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add MyFirstMigration
+dotnet ef database update
+dotnet ef migrations remove
+dotnet ef database update MyFirstMigration
+ 
+dotnet new sln
+dotnet new classlib -o DotNetApiBaseRepoExample.DataAccessor  
+dotnet sln add DotNetApiBaseRepoExample.Accessor/DotNetApiBaseRepoExample.Accessor.csproj  
+dotnet add DotNetApiBaseRepoExample/DotNetApiBaseRepoExample.csproj reference DotNetApiBaseRepoExample.DataAccessor/DotNetApiBaseRepoExample.DataAccessor.csproj
+ 
+dotnet ef migrations add InitialCreate --project DotNetApiBaseRepoExample.DataAccessor --startup-project DotNetApiBaseRepoExample

@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "uWVePK8xYCB09UwrDj2YFueIUoBfMqWHDfaYLqYNYh0=",
+  "Hash": "jWeQeYSjSE8B8VWZdkkfjuchu/3ui3hijeQ/OFTr0GA=",
   "Source": "GraphQL.API.HotChocolate",
   "BasePath": "_content/GraphQL.API.HotChocolate",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

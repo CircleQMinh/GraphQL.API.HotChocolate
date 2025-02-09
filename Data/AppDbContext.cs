@@ -8,7 +8,7 @@ namespace GraphQL.API.HotChocolate.Data
     {
         public AppDbContext(DbContextOptions options) : base(options)
         {
-
+            
         }
 
         public DbSet<Platform> Platforms { get; set; }
