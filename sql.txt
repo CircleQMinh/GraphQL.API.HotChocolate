@@ -1,0 +1,27 @@
+---- Insert sample data for Platform table
+--INSERT INTO Platforms ( Name, LicenseKey)
+--VALUES 
+--( 'Windows', 'WIN-ABC-1234'),
+--( 'Linux', 'LNX-XYZ-5678'),
+--( 'macOS', 'MAC-DEF-9876'),
+--( 'Android', 'AND-POI-1111'),
+--( 'iOS', 'IOS-QWE-2222'),
+--( 'Ubuntu', 'UBT-JKL-3333'),
+--( 'Red Hat', 'RHT-MNO-4444'),
+--( 'Debian', 'DEB-ZXC-5555'),
+--( 'Arch Linux', 'ARC-VBN-6666'),
+--( 'Fedora', 'FED-ASD-7777');
+
+---- Insert sample data for Command table
+--INSERT INTO Commands ( HowTo, CommandLine, PlatformId)
+--VALUES 
+--( 'List files in a directory', 'ls -al', 2),
+--( 'Check current directory', 'pwd', 2),
+--( 'Create a new file', 'touch newfile.txt', 2),
+--( 'Remove a file', 'rm file.txt', 2),
+--( 'Install package on Ubuntu', 'sudo apt-get install package_name', 6),
+--( 'Check OS version', 'uname -r', 2),
+--( 'Restart the system', 'sudo reboot', 6),
+--( 'Show network interfaces', 'ifconfig', 6),
+--( 'View system logs', 'dmesg', 2),
+--( 'Search in files', 'grep "text" file.txt', 2);
